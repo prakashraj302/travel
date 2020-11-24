@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+    "compile:sass": "node-sass scss/main.scss css/style.css -w",
+    "register:sass": "node-sass scss/register.scss css/register.css -w",
+    "login:sass": "node-sass scss/login.scss css/login.css -w",
+    "gallery:sass": "node-sass scss/gallery.scss css/GalleryHover.css -w",
+    "tour:sass": "node-sass scss/tour.scss css/tour.css -w",
+    "about:sass": "node-sass scss/about.scss css/about.css -w",
+    "resturants:sass": "node-sass scss/resturants.scss css/resturants.css -w"
   },
   "author": "",
   "license": "ISC",
